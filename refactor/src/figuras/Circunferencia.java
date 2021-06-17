@@ -1,7 +1,6 @@
 package figuras;
 
 public class Circunferencia {
-	private static final double PI = 3.1416;
 	private double radio;
 
 	public Circunferencia(double radio) {
@@ -12,12 +11,12 @@ public class Circunferencia {
 		String color = "rojo";
 		System.out.println("Di�metro: " + (2 * radio));
 		System.out.println("Color: " + color);
-		double area = 2 * PI * radio * radio;
+		double area = 2 * 3.1416 * radio * radio;
 		System.out.println(area);
 	}
 
 	private double calcularArea() {
-		return 2 * PI * radio * radio;
+		return 2 * 3.1416 * radio * radio;
 	}
 
 	public boolean esIgual(boolean considerarDecimales, Circunferencia otro) {
