@@ -12,7 +12,7 @@ public class Circunferencia {
 		String color = "rojo";
 		System.out.println("Di�metro: " + (2 * radio));
 		System.out.println("Color: " + color);
-		double area = calcularArea();
+		double area = 2 * PI * radio * radio;
 		System.out.println(area);
 	}
 
